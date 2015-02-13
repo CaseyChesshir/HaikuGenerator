@@ -13,6 +13,7 @@ And the third line with five again.
 Word.java
 ========
 A Word object is a basic tuple with a string data attribute and an integer representing the number of syllables in that word. 
+This may be extended to accept a "part of speech" attribute. This will allow for more understandable haikus.
 
 ========
 Usage:
