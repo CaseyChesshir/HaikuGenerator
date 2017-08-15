@@ -5,7 +5,7 @@ jdk:
 
 script: 
     - javac *.java 
-    - HaikuGenerator < dictionary.txt > output.txt
+    - java HaikuGenerator < dictionary.txt > output.txt
     - cat output.txt
 
 after_success: make clean
