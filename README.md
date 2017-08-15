@@ -18,6 +18,8 @@ This may be extended to accept a "part of speech" attribute. This will allow for
 ========
 Usage:
 ========
-Compile with:
-javac HaikuGenerator.java Word.java
-java HaikuGenerator < dictionary.txt > output.txt
+Compile and run with:
+
+$javac HaikuGenerator.java Word.java
+
+$java HaikuGenerator < dictionary.txt > output.txt
