@@ -1,9 +1,9 @@
 language: java
 
 jdk: 
-	- oraclejdk8
+    - oraclejdk8
 
 script: 
-	- javac *.java 
+    - javac *.java 
 
 after_success: make clean
