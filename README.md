@@ -23,3 +23,10 @@ Compile and run with:
 $javac HaikuGenerator.java Word.java
 
 $java HaikuGenerator < dictionary.txt > output.txt
+
+
+master build status:
+[![Build Status](https://travis-ci.org/CaseyChesshir/HaikuGenerator.png?branch=master)](https://travis-ci.org/CaseyChesshir/HaikuGenerator)
+
+develop build status:
+[![Build Status](https://travis-ci.org/CaseyChesshir/HaikuGenerator.png?branch=develop)](https://travis-ci.org/CaseyChesshir/HaikuGenerator)
